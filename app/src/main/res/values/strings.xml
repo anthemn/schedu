@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Schedu</string>
+    <string name="study_group_icon_description">study group icon</string>
+    <string name="choose_study_group">Выберите учебную группу</string>
+    <string name="choose_teacher">Выберите преподавателя</string>
+    <string name="group_search_hint">Найти группу</string>
+</resources>
