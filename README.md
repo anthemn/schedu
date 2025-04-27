@@ -9,7 +9,7 @@ Schedu - удобное приложение для просмотра акту�
 - [Retrofit](https://square.github.io/retrofit/)
 - [RxJava3](https://github.com/ReactiveX/RxJava)
 
-## Демонстрация фунционала
+## Скриншоты
 - Главное меню
 <img src="https://github.com/user-attachments/assets/4f849ce1-7308-44c4-a497-4d9bb2896f69" width="500">
 
