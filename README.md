@@ -11,7 +11,7 @@ Schedu - удобное приложение для просмотра акту�
 
 ## Демонстрация фунционала
 - Главное меню
-<img src="[path/to/screenshot.png](https://github.com/user-attachments/assets/4f849ce1-7308-44c4-a497-4d9bb2896f69)" width="500">
+<img src="https://github.com/user-attachments/assets/4f849ce1-7308-44c4-a497-4d9bb2896f69" width="500">
 
 - Экран поиска группы
 ![image](https://github.com/user-attachments/assets/d614e8f3-4f0b-44a5-88df-b647a8d0e6dc)
