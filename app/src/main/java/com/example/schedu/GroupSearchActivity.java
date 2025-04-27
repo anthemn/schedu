@@ -34,6 +34,18 @@ public class GroupSearchActivity extends AppCompatActivity {
         viewModel = new ViewModelProvider(this).get(GroupSearchViewModel.class);
         Log.d("GroupSearchActivity", recyclerViewGroups.toString());
         groupAdapter = new GroupAdapter();
+        groupAdapter.setOnGroupClickListener(new GroupAdapter.OnGroupClickListener() {
+            @Override
+            public void onGroupClick(String studyGroup) {
+                Intent intent = ScheduleActivity
+                        .newIntent(
+                                GroupSearchActivity.this,
+                                studyGroup
+                        );
+                startActivity(intent);
+                finish();
+            }
+        });
         recyclerViewGroups.setAdapter(groupAdapter);
 
         viewModel.loadGroups();

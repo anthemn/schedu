@@ -20,4 +20,12 @@ public class ScheduleFilterPayload {
     public Selector getSelector() {
         return selector;
     }
+
+    @Override
+    public String toString() {
+        return "ScheduleFilterPayload{" +
+                "type='" + type + '\'' +
+                ", selector=" + selector +
+                '}';
+    }
 }

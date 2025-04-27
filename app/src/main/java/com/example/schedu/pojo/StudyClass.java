@@ -23,8 +23,11 @@ public class StudyClass {
     private String begins;
     @SerializedName("ends")
     private String ends;
+    @SerializedName("group")
+    private List<String> group;
 
-    public StudyClass(String type, int day, int order, int week, String title, List<String> teacher, List<String> location, String begins, String ends) {
+
+    public StudyClass(String type, int day, int order, int week, String title, List<String> teacher, List<String> location, String begins, String ends, List<String> group) {
         this.type = type;
         this.day = day;
         this.order = order;
@@ -34,6 +37,7 @@ public class StudyClass {
         this.location = location;
         this.begins = begins;
         this.ends = ends;
+        this.group = group;
     }
 
     public String getType() {
@@ -70,6 +74,10 @@ public class StudyClass {
 
     public String getEnds() {
         return ends;
+    }
+
+    public List<String> getGroup() {
+        return group;
     }
 
     @Override

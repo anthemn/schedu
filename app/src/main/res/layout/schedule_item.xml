@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:background="@drawable/item_bg"
+    android:orientation="vertical"
+    android:paddingHorizontal="12dp"
+    android:paddingTop="12dp">
+
+    <TextView
+        android:id="@+id/textViewWeekDay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_semi_bold"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        tools:text="Понедельник" />
+
+    <TextView
+        android:id="@+id/textViewSchedule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_regular"
+        android:minHeight="150dp"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        tools:text="2 пара (10:50 — 12:25)\nТехнологические линии и системы автоматизации в ОМД (Лекционные)\nГ-160 | Галкин С. П. | БМТ-21-1 [1]\n\n3 пара (12:40 — 14:15)\nЦифровое моделирование процессов и инструмента ОМД (Практические)\nГ-128 | Соколов П. Ю., Данилин А. В. | БМТ-21-1 [1]\n\n4 пара (14:30 — 16:05)\nТехнологические линии и системы автоматизации в ОМД (Практические)\nГ-164 | Скрипаленко М. Н., Алещенко А. С. | БМТ-21-1 [1]" />
+
+</LinearLayout>

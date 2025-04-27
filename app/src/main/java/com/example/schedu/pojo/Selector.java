@@ -33,4 +33,13 @@ public class Selector {
     public String getTeacher() {
         return teacher;
     }
+
+    @Override
+    public String toString() {
+        return "Selector{" +
+                "group='" + group + '\'' +
+                ", subgroup=" + subgroup +
+                ", teacher='" + teacher + '\'' +
+                '}';
+    }
 }

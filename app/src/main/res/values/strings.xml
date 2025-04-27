@@ -4,4 +4,6 @@
     <string name="choose_study_group">Выберите учебную группу</string>
     <string name="choose_teacher">Выберите преподавателя</string>
     <string name="group_search_hint">Найти группу</string>
+    <string name="top_week">Верхняя неделя</string>
+    <string name="bottom_week">Нижняя неделя</string>
 </resources>
