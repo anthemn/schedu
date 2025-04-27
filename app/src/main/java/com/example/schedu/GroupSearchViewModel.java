@@ -2,6 +2,7 @@ package com.example.schedu;
 
 import android.util.Log;
 
+import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
@@ -27,7 +28,7 @@ public class GroupSearchViewModel extends ViewModel {
     private MutableLiveData<List<Group>> groups = new MutableLiveData<>();
     private List<Group> groupsFromApi;
 
-    public MutableLiveData<List<Group>> getGroups() {
+    public LiveData<List<Group>> getGroups() {
         return groups;
     }
 
